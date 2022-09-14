@@ -11,4 +11,7 @@
   .sidebar-link {
     @apply flex items-center gap-1 px-3 py-2 rounded-lg hover:bg-cgreen text-base hover:text-white;
   }
+  .tombol {
+    @apply rounded-lg bg-cgreen text-white hover:ring-2 hover:ring-black hover:scale-105;
+  }
 }
