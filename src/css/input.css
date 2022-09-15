@@ -12,6 +12,9 @@
     @apply flex items-center gap-1 px-3 py-2 rounded-lg hover:bg-cgreen text-base hover:text-white;
   }
   .tombol {
-    @apply rounded-lg bg-cgreen text-white hover:ring-2 hover:ring-black hover:scale-105;
+    @apply px-3 py-2 rounded-lg bg-cgreen text-white;
+  }
+  .card {
+    @apply px-6 py-8 mb-5 rounded-lg shadow-md;
   }
 }
